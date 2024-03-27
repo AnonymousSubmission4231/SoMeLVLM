@@ -6,9 +6,9 @@ This is the repository for the anonymous submission paper: SoMeLVLM: A Large Vis
 
 ## Datasets & Model Weights
 
-Model weights: [Lishi0905/SoMeLVLM · Hugging Face](https://huggingface.co/Lishi0905/SoMeLVLM)
+Model weights have already been released. For the anonymous consideration, this repo does not include the Huggingface link.
 
-Plain text & Multimodal datasets: [Request Form](https://forms.gle/h4UCzUxPCE3pjo9e9)
+Plain text & Multimodal dataset samples can be checked in this repo. The full version (~16GB) is ready and will be released on Huggingface.
 
 ## Table of Contents
 
@@ -841,20 +841,3 @@ https://github.com/Lishi905/SoMeLVLM/assets/136311380/0ba611c3-a661-4143-9df2-54
     answer = model.generate({"image": image, "prompt": prompt})[0]
     ```
 
-
-## Ethics Statement
-
-The data used in this paper are from real users in diverse social media platforms, so the privacy problem is treated cautiously. The data from opensource datasets are safe as the sensitive information has already been masked. For the data we collect, we strictly follow the privacy policy of social media platforms and will carefully avoid personal information before we release our instruction dataset.
-
-## Citation
-
-If you find our SoMeLVLM or datasets useful, we will greatly appreciate it if you could consider citing our paper:
-
-```
-@article{zhang2024somelvlm,
-	author = {Xinnong Zhang and Haoyu Kuang and Xinyi Mou and Hanjia Lyu and Kun Wu and Siming Chen and Jiebo Luo and Xuanjing Huang and Zhongyu Wei},
-	title = {SoMeLVLM: A Large Vision Language Model for Social Media Processing},
-	year = {2024},
-	journal = {arXiv preprint arXiv: 2402.13022}
-}
-```
