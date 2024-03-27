@@ -1,15 +1,14 @@
 # SoMeLVLM: A Large Vision Language Model for Social Media Processing
 
-This is an anonymous repository for the ARR submission paper: SoMeLVLM: A Large Vision Language Model for Social Media Processing.
+This is the repository for the anonymous submission paper: SoMeLVLM: A Large Vision Language Model for Social Media Processing
+
 ![framework3](./assets/framework3.jpg)
 
 ## Datasets & Model Weights
 
 Model weights: [Lishi0905/SoMeLVLM · Hugging Face](https://huggingface.co/Lishi0905/SoMeLVLM)
 
-Plain text SFT & Eval datasets: **coming soon**
-
-Multimodal SFT & Eval datasets: **coming soon**
+Plain text & Multimodal datasets: [Request Form](https://forms.gle/h4UCzUxPCE3pjo9e9)
 
 ## Table of Contents
 
@@ -26,7 +25,7 @@ The growth of social media, characterized by its multimodal nature, has led to t
 
 ## Datasets
 
-We have develop a **654k** social media dataset **SoMeData**, which consists of five cognitive modules and various CSS task categories.
+We have developed a **654k** social media dataset **SoMeData**, which consists of five cognitive modules and various CSS task categories.
 
 
 <table class="tg">
@@ -756,6 +755,35 @@ Comprehensive analysis according to the cognitive abilities.
 
 ![radar3](./assets/radar3.png)
 
+## Demo Examples
+
+### Knowledge & Comprehension
+
+<!-- <video id="knowledge" autoplay muted loop playsinline width="90%">
+  <source src="./assets/demo2.mp4"  type="video/mp4">
+</video> 
+https://github.com/Lishi905/SoMeLVLM/assets/136311380/195d2952-7484-477a-b44a-fc57af39dab2 -->
+
+![exam_knowledge](./assets/demo1.gif)
+
+### Analysis
+
+<!-- <video id="analysis" autoplay muted loop playsinline width="90%">
+  <source src="./assets/demo3.mp4"  type="video/mp4">
+ </video>
+https://github.com/Lishi905/SoMeLVLM/assets/136311380/61703d28-c655-4ffc-88ac-c86eafa1244e -->
+
+![exam_analysis](./assets/demo2.gif)
+
+### Creation
+
+<!-- <video id="creation" autoplay muted loop playsinline width="90%">
+  <source src="./assets/demo1.mp4"  type="video/mp4">
+ </video> 
+https://github.com/Lishi905/SoMeLVLM/assets/136311380/0ba611c3-a661-4143-9df2-548b51cc045f -->
+
+![exam_creation](./assets/demo3.gif)
+
 ## Reproduction
 
 ### Inference
@@ -813,9 +841,6 @@ Comprehensive analysis according to the cognitive abilities.
     answer = model.generate({"image": image, "prompt": prompt})[0]
     ```
 
-### Fine-tuning
-
-Coming soon after the release of datasets.
 
 ## Ethics Statement
 
@@ -823,7 +848,7 @@ The data used in this paper are from real users in diverse social media platform
 
 ## Citation
 
-If you find our SoMeLVLM or datasets useful, we will greatly appreacite it if you could consider citing our paper:
+If you find our SoMeLVLM or datasets useful, we will greatly appreciate it if you could consider citing our paper:
 
 ```
 @article{zhang2024somelvlm,
@@ -833,4 +858,3 @@ If you find our SoMeLVLM or datasets useful, we will greatly appreacite it if yo
 	journal = {arXiv preprint arXiv: 2402.13022}
 }
 ```
-
