@@ -6,9 +6,9 @@ This is the repository for the anonymous submission paper: SoMeLVLM: A Large Vis
 
 ## Datasets & Model Weights
 
-Model weights have already been released. For the anonymous consideration, this repo does not include the Huggingface link.
+- Model weights have already been released. For the anonymous consideration, this repo does not include the Huggingface link.
 
-Plain text & Multimodal dataset samples can be checked in this repo. The full version (~16GB) is ready and will be released on Huggingface once the review period is completed.
+- **Plain text & Multimodal dataset samples can be checked in this repo.** The full version (~16GB) is ready and will be released on Huggingface once the review period is completed.
 
 ## Table of Contents
 
