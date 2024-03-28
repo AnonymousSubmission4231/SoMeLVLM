@@ -15,7 +15,7 @@ This is the repository for the anonymous submission paper: SoMeLVLM: A Large Vis
 - [Abstract](#Abstract)
 - [Datasets](#Datasets)
 - [Experiment Results](#Experiment-Results)
-- [Demo](#Demo)
+- [Demo Examples](#Demo-Examples)
 - [Reproduction](#Reproduction)
 - [Ethics Statement](#Ethics-Statement)
 - [Citation](#Citation)
